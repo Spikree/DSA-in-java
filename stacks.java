@@ -23,9 +23,11 @@ public class stacks {
 
         // System.out.println(stack.search("doom")); // youll get starting position from 1 not 0
 
-        for (int i = 0; i < 1000000000; i++) {
+        for (int i = 0; i < 10000000; i++) {
             stack.push("Fallout 76");
         }
+
+        System.out.println(stack);
 
         // uses of stack ?
         // 1. Undo/redo features in text editors 
